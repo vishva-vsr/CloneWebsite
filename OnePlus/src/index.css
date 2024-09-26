@@ -1,0 +1,209 @@
+.navbar{
+    display: flex;
+    margin-left: 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: 150; 
+}
+.navbar .nav-items{
+    display: inline-flex;
+    list-style: none;
+    text-align: end;
+    width: 50vw;
+    font-size: 20px;
+    justify-content:flex-end;  
+    font-weight: 100;
+}
+.nav-items{
+   display: flex;
+    margin-left: 10%;
+    font-weight: 150;
+     
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2rem;
+    
+    
+}
+.navbar-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    margin-left: 6%;
+    font-weight: 150;
+   
+   
+}
+.card{
+    border: px solid rgb(113, 113, 113);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    max-width: 430px;
+    display: inline-block;
+    justify-content: space-around;  
+    margin-left: 2%;
+}
+ .card-banner{
+   text-align: center;
+}
+.card-banner .profile{
+    width: 1520px;
+    height: 330px;
+    margin-bottom: 2px; 
+    padding-top: 1px;
+    justify-content: center;
+}
+.card-banner .card-paragraph{
+    font-family: Arial, sans-serif;
+}
+.card-banner .vsr{
+    font-family: Arial, sans-serif;
+}
+
+.card .profile{
+    max-width: 430px;
+    height:auto;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.card .vsr{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: rgb(60, 60, 60);
+}
+.card .card-paragraph{
+    font-family: Arial, sans-serif;
+    color: rgb(47, 47, 47);
+} 
+
+.card .btn-Know{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    font-family: Arial, sans-serif; 
+    
+    
+}
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.mob-div{
+    border: 0px solid rgb(113, 113, 113);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    max-width: 300px;
+    max-height: 600px;
+    display: inline-block;
+    justify-content: center;
+    font-size: smaller;
+    
+}
+.mob-div .mob-pic{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px; 
+    padding-top: 3px;
+    max-width: 200px;
+    
+}
+.mob-div .mob-btn{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    width: 250px;
+    border-radius: 3px;
+    font-family: Arial, sans-serif; 
+}
+.mob-div .mob-txt{
+    font-family: Arial, sans-serif; 
+}
+.mob-div .mob-btn2{
+    background-color: rgb(225, 0, 0);
+    color: aliceblue;
+    height: 50px;
+    width: 90px;
+    border-radius: 3px;
+    font-family: Arial, sans-serif; 
+}
+.card-banner .top-left{
+    position: absolute;
+  top: 100px;
+  left: 16px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif; 
+  font-size: 40px;
+  text-align: justify;
+}
+.card-banner .top-left1{
+    position: absolute;
+    top: 450px;
+    left: 16px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif; 
+    text-size-adjust: 100px;
+    font-size: 40px;
+    text-align: justify;
+}
+.card-banner .top-left2{
+    position: absolute;
+    top: 800px;
+    left: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif; 
+    font-size: 40px;
+    text-align: justify;
+}
+.card-banner .top-left .para-top{
+    font-size: 20px;
+    margin-right: 300px;
+    margin-bottom: 60px; 
+    color: rgba(255, 255, 255, 0.474);
+    text-align: justify;
+}
+.Header-nav{
+    display: inline-flex;
+    color: red;
+    font-family: Arial, sans-serif;  
+    margin-left: 2%;
+   
+}
+.unlist{
+    display: inline-flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-left: 300%;
+    margin-top: 8%;
+    text-align: center;
+    
+}
+.unlist li{
+    margin-right: 6%;
+    color: black;  
+}
+.Header{
+    box-shadow: 0px 0px 5px black;
+    position:static;
+    top:0%;  
+}
+.Over-Head{
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
